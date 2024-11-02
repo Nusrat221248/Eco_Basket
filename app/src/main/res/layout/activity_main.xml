@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:gravity="center"
+        android:text="Eco_Basket"
+        android:textAllCaps="true"
+        android:textColor="#5B1111"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:drawableLeft="@drawable/baseline_person_outline_24"
+        android:drawablePadding="20dp"
+        android:ems="15"
+        android:hint="Enter your user name"
+        android:inputType="text"
+        android:padding="20dp"
+        android:textColor="#181717"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:drawableLeft="@drawable/password_minimalistic_svgrepo_com"
+        android:drawablePadding="20dp"
+        android:ems="15"
+        android:hint="Enter your password"
+        android:inputType="textPassword"
+        android:padding="20dp"
+        android:textColor="#141313"/>
+
+    <Button
+        android:id="@+id/Enter1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#5B1111"
+        android:gravity="center"
+        android:text="Login"
+        android:textColor="#B19B9B" />
+
+</LinearLayout>
